@@ -4,6 +4,6 @@ A red–black tree is a type of self-balancing binary search tree, a data struct
 
 - every node is either red or black;
 - the root is black;
-- every leaf ($NIL$) is black;
+- every leaf ( $NIL$ ) is black;
 - if a node is red, then its children are black;
 - for each node $x$, all the simple paths from x to descendant leaves contains the same number of black nodes.
