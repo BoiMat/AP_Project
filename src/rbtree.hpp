@@ -242,13 +242,6 @@ class RBTree {
       Insert(node);
     }
 
-    // copy constructor
-    RBTree(const RBTree<T,CMP> &tree) {
-      nil = new Node<T>(true);
-      root = nil;
-      Insert(tree.root);
-    }
-
     ~RBTree() {
       delete nil;
     }
